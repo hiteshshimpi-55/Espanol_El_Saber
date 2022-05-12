@@ -23,24 +23,28 @@
     tools:context="com.example.android.miwok.MainActivity">
 
     <TextView
+        android:drawSelectorOnTop="true"
         android:id="@+id/numbers"
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
         android:text="@string/category_numbers" />
 
     <TextView
+        android:drawSelectorOnTop="true"
         android:id="@+id/family"
         style="@style/CategoryStyle"
         android:background="@color/category_family"
         android:text="@string/category_family" />
 
     <TextView
+        android:drawSelectorOnTop="true"
         android:id="@+id/colors"
         style="@style/CategoryStyle"
         android:background="@color/category_colors"
         android:text="@string/category_colors" />
 
     <TextView
+        android:drawSelectorOnTop="true"
         android:id="@+id/phrases"
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
