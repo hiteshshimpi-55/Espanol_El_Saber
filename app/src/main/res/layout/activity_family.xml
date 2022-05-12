@@ -21,4 +21,4 @@
     android:layout_height="match_parent"
     android:drawSelectorOnTop="true"
 
-    tools:context="com.example.android.miwok.NumbersActivity"/>
+    tools:context="com.example.android.espanol_el_saber.NumbersActivity"/>

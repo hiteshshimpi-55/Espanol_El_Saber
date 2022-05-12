@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.miwok">
+    package="com.example.android.espanol_el_saber">
 
     <application
         android:allowBackup="true"
@@ -22,7 +22,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash">
+        <activity android:name="com.example.android.espanol_el_saber.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,44 +30,44 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.android.espanol_el_saber.MainActivity">
 
         </activity>
         <activity
-            android:name=".NumbersActivity"
+            android:name="com.example.android.espanol_el_saber.NumbersActivity"
             android:label="@string/category_numbers"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.espanol_el_saber.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.example.android.espanol_el_saber.MainActivity"/>
         </activity>
         <activity
-            android:name=".FamilyActivity"
+            android:name="com.example.android.espanol_el_saber.FamilyActivity"
             android:label="@string/category_family"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.espanol_el_saber.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.example.android.espanol_el_saber.MainActivity"/>
         </activity>
         <activity
-            android:name=".ColorsActivity"
+            android:name="com.example.android.espanol_el_saber.ColorsActivity"
             android:label="@string/category_colors"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.espanol_el_saber.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.example.android.espanol_el_saber.MainActivity"/>
         </activity>
         <activity
-            android:name=".PhrasesActivity"
+            android:name="com.example.android.espanol_el_saber.PhrasesActivity"
             android:label="@string/category_phrases"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.espanol_el_saber.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.example.android.espanol_el_saber.MainActivity"/>
         </activity>
     </application>
 

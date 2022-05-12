@@ -13,26 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.miwok;
+package com.example.android.espanol_el_saber;
 
 
-import android.content.Context;
-import android.media.AudioManager;
-import android.speech.tts.TextToSpeech;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ImageButton;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.Locale;
 
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class NumbersActivity extends AppCompatActivity {
